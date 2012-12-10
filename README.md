@@ -1,5 +1,5 @@
-# US States GeoJSON Tile Layer Demo
-Serve GeoJSON tiles in Django and render them in Leaflet
+# US States GeoJSON Tile Demo
+An example application that serves GeoJSON tiles using GeoDjango and renders them in Leaflet
 
 ## Introduction
 
