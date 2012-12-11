@@ -14,6 +14,7 @@ This application demonstrates an example use of
 1. Install PostgreSQL with PostGIS, and configure settings.py with your db settings
 2. Setup Django app and run
 
+        pip install -r requirements.txt
         python manage.py syncdb
         python manage.py loaddata shapefiles/usa_state_shapefile.shp
         gunicorn_django --workers=10
